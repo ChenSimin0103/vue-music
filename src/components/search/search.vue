@@ -10,10 +10,10 @@ export default {
   components: {},
   props: {},
   data () {
-    return {}
+    return {};
   },
   methods: {}
-}
+};
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">

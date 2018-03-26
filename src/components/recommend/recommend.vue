@@ -5,11 +5,11 @@
 </template>
 
 <script type="text/ecmascript-6">
-import { getRecommend } from "api/recommend";
-import { ERR_OK } from "api/config";
+import { getRecommend } from 'api/recommend';
+import { ERR_OK } from 'api/config';
 
 export default {
-  name: "",
+  name: '',
   components: {},
   props: {},
   data() {
@@ -22,7 +22,7 @@ export default {
     _getRecommend() {
       getRecommend(res => {
         if (res.code === ERR_OK) {
-          console.log("数据导入成功");
+          console.log('数据导入成功');
           console.log(res.data.slider);
         }
       });
