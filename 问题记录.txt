@@ -1,0 +1,3 @@
+20180327
+Q1&A1: 判断/添加一个class名给一个DOM的简单做法是：将该className(字符串)通过spilt方法用' '(空格)分隔成一个数组，将新的属性名push进数组，再通过join方法将数组用' '连接成字符串
+例子(common/js/dom.js)： split(' ')  join(' ')
