@@ -10,6 +10,7 @@ Vue.config.productionTip = false;
 fastclick.attach(document.body);
 
 /* eslint-disable no-new */
+// var vm = Vue({})
 new Vue({
   el: "#app",
   router,
